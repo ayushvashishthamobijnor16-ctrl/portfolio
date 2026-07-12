@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ayush — Full-Stack Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=Caveat:wght@600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <div class="nav-id">Ayush <span>Dev Log</span></div>
+    <nav class="links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<div class="wrap">
+
+  <section class="hero">
+    <div class="stamp">Verified<br>Build</div>
+    <div class="id-card"><span class="dot"></span> Open to full-stack roles · NCR</div>
+    <h1>Ayush builds things,<br>then explains <em>exactly</em><br>how they work.</h1>
+    <p class="lede">Full-stack developer (React · Node.js · SQL) and CS teacher. I like systems I can explain line by line — which is also how I build them.</p>
+    <div class="btn-row">
+      <a href="#projects" class="btn btn-primary">See the projects</a>
+      <a href="/resume.pdf" class="btn btn-ghost">Download résumé</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <p class="eyebrow">Roll Call</p>
+    <h2 class="sec-title">About</h2>
+    <div class="about-grid">
+      <div>
+        <p>I graduated with a B.Tech in Computer Science in 2024 and have spent the time since building full-stack projects and teaching Computer Science to Classes 6–10 — a combination that's taught me as much about explaining systems clearly as building them.</p>
+        <p>I'm currently looking for entry-level full-stack developer roles, especially in the Noida/Gurgaon (NCR) market. My stack is React on the frontend and Node.js/Express on the backend, with SQL databases and JWT-based auth in between.</p>
+        <p>Outside of code, I follow the Indian stock market and football finance, and I'm slowly building toward algorithmic trading as a longer-term side project.</p>
+      </div>
+      <div class="margin-note">
+        <span class="note">margin note —</span>
+        <p>Two years of teaching means I can't ship something I can't explain. Every project below comes with a plain-English "what it does," not just a tech-stack list.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <p class="eyebrow">Logbook</p>
+    <h2 class="sec-title">Projects</h2>
+
+    <div class="entry">
+      <span class="checkmark">checked ✓</span>
+      <div class="entry-head">
+        <div>
+          <div class="entry-num">ENTRY 01</div>
+          <h3>MPS School Management System</h3>
+        </div>
+        <span class="status deployed">Deployed</span>
+      </div>
+      <p class="desc">A full-stack school management platform handling student records, staff accounts, and role-based access — built to solve a real administrative workflow, not a tutorial clone. Includes JWT authentication, protected routes, and a SQLite-backed API.</p>
+      <div class="stack">
+        <span>React 19</span><span>React Router v7</span><span>Tailwind</span>
+        <span>Node.js</span><span>Express</span><span>SQLite</span><span>JWT + bcrypt</span>
+      </div>
+      <div class="entry-links">
+        <a href="#">Live demo →</a>
+        <a href="#">GitHub repo →</a>
+      </div>
+    </div>
+
+    <div class="entry">
+      <div class="entry-head">
+        <div>
+          <div class="entry-num">ENTRY 02</div>
+          <h3>Smart Daily Planner</h3>
+        </div>
+        <span class="status progress">In progress</span>
+      </div>
+      <p class="desc">A productivity app syncing with Google Calendar, with JWT auth, email reminders, and usage analytics on a MySQL backend. Built specifically to demonstrate integration with third-party APIs and scheduled jobs, not just CRUD.</p>
+      <div class="stack">
+        <span>React + Vite</span><span>Node.js</span><span>Express</span>
+        <span>MySQL</span><span>Google Calendar API</span><span>JWT</span>
+      </div>
+      <div class="entry-links">
+        <a href="#">GitHub repo →</a>
+      </div>
+    </div>
+
+    <div class="entry">
+      <span class="checkmark">checked ✓</span>
+      <div class="entry-head">
+        <div>
+          <div class="entry-num">ENTRY 03</div>
+          <h3>AyushFlix</h3>
+        </div>
+        <span class="status deployed">Deployed</span>
+      </div>
+      <p class="desc">A Netflix-style streaming UI clone focused on frontend fundamentals — responsive layouts, dynamic content rows, and API-driven data fetching, deployed live rather than left as a local build.</p>
+      <div class="stack">
+        <span>React</span><span>REST API integration</span><span>Netlify</span>
+      </div>
+      <div class="entry-links">
+        <a href="#">Live demo →</a>
+        <a href="#">GitHub repo →</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <p class="eyebrow">Mark Sheet</p>
+    <h2 class="sec-title">Skills</h2>
+    <div class="sheet">
+      <div class="sheet-row headrow">
+        <div>Subject</div><div>Covers</div><div>Level</div>
+      </div>
+      <div class="sheet-row">
+        <div class="subject">Languages</div>
+        <div class="items">JavaScript, TypeScript, SQL</div>
+        <div class="level confident">Confident</div>
+      </div>
+      <div class="sheet-row">
+        <div class="subject">Frontend</div>
+        <div class="items">React, React Router, Tailwind CSS</div>
+        <div class="level confident">Confident</div>
+      </div>
+      <div class="sheet-row">
+        <div class="subject">Backend</div>
+        <div class="items">Node.js, Express, REST APIs, JWT auth</div>
+        <div class="level comfortable">Comfortable</div>
+      </div>
+      <div class="sheet-row">
+        <div class="subject">Databases</div>
+        <div class="items">SQLite, MySQL</div>
+        <div class="level comfortable">Comfortable</div>
+      </div>
+      <div class="sheet-row">
+        <div class="subject">Tools</div>
+        <div class="items">Git, Netlify, Render, Railway</div>
+        <div class="level comfortable">Comfortable</div>
+      </div>
+      <div class="sheet-row">
+        <div class="subject">Currently learning</div>
+        <div class="items">Data structures & algorithms (LeetCode), testing tools</div>
+        <div class="level learning">Learning</div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" style="border-bottom:none;">
+    <div class="contact-card">
+      <h2>Let's talk</h2>
+      <p>Looking for full-stack developer roles across NCR — always open to a conversation.</p>
+      <div class="contact-links">
+        <a href="mailto:your-email@example.com">Email</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer>Built by Ayush · Marked, dated, deployed.</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
